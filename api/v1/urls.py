@@ -2,6 +2,6 @@ from django.urls import path, include
 
 
 urlpatterns = [
-    path('', include('apps.flightapp.urls')),
-    path('', include('apps.route.urls')),
+    path('flight/', include(('apps.flightapp.urls', 'flightapp'), namespace='flightapp')),
+    path('route/', include(('apps.route.urls', 'route'), namespace='route')),
 ]

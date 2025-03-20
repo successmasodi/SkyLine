@@ -22,7 +22,7 @@ from drf_yasg import openapi
 
 schema_view = get_schema_view(
     openapi.Info(
-        title="SuccessAir",
+        title="SkyLine",
         default_version='v1',
         description="An API for booking flights",
         terms_of_service="https://www.google.com/policies/terms/",
